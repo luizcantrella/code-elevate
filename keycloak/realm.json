@@ -1,0 +1,22 @@
+{
+  "realm": "code-elevate-realm",
+  "enabled": true,
+  "id": "code-elevate-realm",
+  "clients": [
+    {
+      "clientId": "code-elevate-client",
+      "enabled": true,
+      "protocol": "openid-connect",
+      "clientAuthenticatorType": "client-secret",
+      "secret": "bHVpel9jYW50cmVsbGE=",
+      "publicClient": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": true,
+      "standardFlowEnabled": false,
+      "implicitFlowEnabled": false,
+      "attributes": {
+        "access.token.lifespan": "3600"
+      }
+    }
+  ]
+}
